@@ -1,0 +1,44 @@
+/* Стили для моего проекта */
+
+body{
+    width: 1280px;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.headList{
+    list-style: inside url(images/check_icon.png);
+    padding-left: 0;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 36px;
+    float: left;
+
+}
+.smalsection{
+    width: 100%;
+    height: 323px;
+    background-color: #989898;
+    padding: 50px;
+    clear: both;
+}
+h1{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    float: left;
+}
+.mediumsection{
+    width: 100%;
+    height: 400px;
+
+}
+
+.largesection{
+    width: 100%;
+    height: 600px;
+}
+.img{
+    float: right;
+    width: 300px;
+    height: 200px;
+}
