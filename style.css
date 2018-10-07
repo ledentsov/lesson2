@@ -12,6 +12,7 @@ body{
     font-size: 20px;
     line-height: 36px;
     float: left;
+    width: 55%;
 
 }
 .smalsection{
@@ -26,6 +27,7 @@ h1{
     font-size: 60px;
     font-weight: 400;
     float: left;
+    width: 55%;
 }
 .mediumsection{
     width: 100%;
