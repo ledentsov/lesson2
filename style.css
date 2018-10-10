@@ -1,11 +1,15 @@
 /* Стили для моего проекта */
 
 body{
-    width: 1280px;
-    height: 100%;
-    margin: 0 auto;
+    margin: 0;
+    background: #ccc;
     font-family: Arial, sans-serif;
 }
+.container{
+    width: 1256px;
+    margin: 0 auto;
+}
+
 .headList{
     list-style: inside url(images/check_icon.png);
     padding-left: 0;
@@ -17,11 +21,11 @@ body{
 
 }
 .smalsection{
-    width: 100%;
+    
     height: 323px;
     background-color: #445161;
     padding: 50px;
-    clear: both;
+    /* clear: both; */
 }
 h1{
     color: #ffffff;
@@ -29,9 +33,10 @@ h1{
     font-weight: 400;
     float: left;
     width: 55%;
+    margin: 0;
 }
 .aboutsection{
-    width: 100%;
+    
     height: 330px;
     padding: 50px;
     clear: both;
@@ -40,7 +45,7 @@ h1{
 }
 
 .largesection{
-    width: 100%;
+    
     height: 600px;
 }
 .img{
@@ -66,15 +71,125 @@ h1{
     margin-top: 30px;
 }
 .dignitysection{
-    width: 100%;
-    height: 330px;
+    
+    height: 100%;
     padding: 50px;
-    clear: both;
-    background-color: #989898;
+    /* clear: both; */
+    background-color: #f5f5f5;
 }
 .dignity{
     color: #445161;
     font-size: 35px;
     margin: 0 0 35px;
     text-align: center;
+}
+.dignitySectionBlockContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-content: space-around;
+    
+
+}
+.dignitySectionContent{
+    
+    padding-left: 40px;
+    background: url(images/plus_icon.gif) no-repeat left 5px;
+    max-width: 45%;
+    font-size: 20px;
+    line-height: 20px;
+}
+.dignitySectionContent:nth-child(n+3){
+    margin-top: 20px;
+}
+.screenshotsSection{
+    height: 100%;
+    padding: 50px;
+    background-color: #989898;
+}
+.screenshotsCaption{
+    margin: 0 0 35px;
+    text-align: center;
+    font-size: 35px;
+}
+.screenshotsSectionBlockContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-content: space-around;
+}
+.screenshotsArticle{
+    max-width: 50%;
+}
+.screenshotsArticle:nth-child(n+3){
+    margin-top: 20px;
+}
+
+.screenshotsArticle h2{
+    font-size: 25px;
+    
+}
+.screenshotsArticle img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px
+}
+.reviewsSection{
+    height: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+.reviewsSection h2{
+    text-align: center;
+    font-size: 25px;
+    color: #445161;
+}
+.reviewsSectionBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-content: space-around;
+}
+.reviewsSectionOne{
+    
+    background-color: #989898;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 30px;
+    float: left;
+}
+.reviewsSectionContent{
+    max-width: 50%;
+}
+
+.reviewsSectionOne::before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -12.5px;
+    top: 57px;
+    background: #989898;
+    transform: rotate(45deg);
+}
+.reviewsSectionContent img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.reviewsSectionContentText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.autor{
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: lighter;
 }
